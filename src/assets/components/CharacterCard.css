@@ -1,0 +1,31 @@
+.char-card__cont{
+    min-width: 70%;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.App--ligth  .char-card__cont{
+    border-color: black;
+}
+
+.char-card__img{
+    display: flex;
+    width: 184px;
+}
+.cha-card__info{
+    display: flex;
+}
+
+.charLocation span{
+    padding-bottom: 20px;
+}
+
+.char-card__add{
+    align-self: center;
+}

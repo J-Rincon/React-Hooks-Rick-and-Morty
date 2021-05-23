@@ -1,0 +1,40 @@
+.Characters{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.favorites{
+    margin-bottom: 2%;
+}
+
+.characters-cont{
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:1%;
+}
+
+.favorite-list{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5% 3% 0;
+}
+
+.favorite-list button{
+    height: 25px;
+}
+
+@media (max-width: 1300px) {
+    .characters-cont{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+    .characters-cont{
+        display: flex;
+        flex-direction: column;
+    }
+}
